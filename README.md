@@ -1,9 +1,13 @@
 # Swear Jar
-This program listens to a microphone and counts utterances of swears. Currently, the program is only supported on [Windows](https://www.microsoft.com/en-us/windows) systems. Requires an [Internet connection](https://simple.wikipedia.org/wiki/Internet) to function, as it relies on the [Google Web Speech API](https://www.google.com/chrome/demos/speech.html) to translate audio to text. SwearJar is written in [Python 3](https://www.python.org/downloads/), and compiled to C using [PyInstaller](https://www.pyinstaller.org/)
+This program listens to a microphone and counts utterances of swears. Currently, the program is only supported on [Windows](https://www.microsoft.com/en-us/windows) systems. Requires an [Internet connection](https://simple.wikipedia.org/wiki/Internet) to function, as it relies on the [Google Web Speech API](https://www.google.com/chrome/demos/speech.html) to translate audio to text. SwearJar is written in [Python 3](https://www.python.org/downloads/), and compiled to C using [PyInstaller](https://www.pyinstaller.org/).
 
 ## Single-File Executable (AKA "Normal Mode")
 Through the mystical powers of science, we are able to compile the Python program and all its requisite code libraries into a single executable file for Windows. You can find the latest version at [/bin/swearjar.exe](https://github.com/rudyharrelson/swearjar/raw/master/bin/swearjar.exe). Just run 'swearjar.exe' and you're done!
 ![](https://i.imgur.com/jzR0lHd.png)
+
+### Uninstalling
+Tired of measuring the rapid decay of your already lacking vocabulary? You can uninstall SwearJar by simply deleting the 'swearjar.exe' file. 
+![](https://i.imgur.com/5lQ5VQc.png)
 
 ## Advanced Mode (AKA "Unnecessarily Difficult Mode")
 ### Install Python 
