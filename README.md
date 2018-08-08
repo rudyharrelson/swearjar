@@ -9,7 +9,7 @@ When installing Python 3, make sure "pip" is selected to be installed under "Opt
 
 After installing Python, open the command-prompt in Windows and enter:
 
-```pip install speech_recognition pyaudio texttable```
+```pip install SpeechRecognition pyaudio texttable```
 
 This command should download and install the necessary modules to run this program. 
 
