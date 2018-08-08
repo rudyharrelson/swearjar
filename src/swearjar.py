@@ -10,9 +10,9 @@
 
 #Gotta import these modules to make stuff work
 #Shoutout to the Python community for making this stuff
-import speech_recognition as sr
 import os
 import pyaudio
+import speech_recognition as sr
 from texttable import Texttable
 
 
