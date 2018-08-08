@@ -19,7 +19,7 @@ from texttable import Texttable
 #This method is called to draw the pretty table that displays the program
 def update_status(status_text):
     os.system('cls')
-    the_rows = [["Swear-Jar Counter","v1.2-13"],["Selected Device",selected_device],["Total Words", total_words],["Swears Per Word", swears_per_word],["Swear Count", swear_count],["Most Recent Text", most_recent_record],[" "," "],[" "," "],["Stats", status_text],["Press CTRL+C to Exit",""]]
+    the_rows = [["Swear-Jar Counter","v1.8-7"],["Selected Device",selected_device],["Total Words", total_words],["Swears Per Word", swears_per_word],["Swear Count", swear_count],["Most Recent Text", most_recent_record],[" "," "],[" "," "],["Stats", status_text],["Press CTRL+C to Exit",""]]
     t = Texttable()
     t.add_rows(the_rows)
     print(t.draw())
