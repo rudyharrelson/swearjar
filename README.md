@@ -1,6 +1,8 @@
 # Swear Jar
 This program listens to a microphone and counts utterances of swears. Currently, the program is only supported on [Windows](https://www.microsoft.com/en-us/windows) systems. Requires an [Internet connection](https://simple.wikipedia.org/wiki/Internet) to function, as it relies on the [Google Web Speech API](https://www.google.com/chrome/demos/speech.html) to translate audio to text. SwearJar is written in [Python 3](https://www.python.org/downloads/), and compiled to C using [PyInstaller](https://www.pyinstaller.org/).
 
++ **Note:** The Google API used is limited to 50 uses per day. Meaning you could get approximately ~5 minutes of using this program uninterrupted. This may change in the future, depending on our options. Ideally the program will be able to run for hours uninterrupted and transcribe considerable amounts of text. But stuff like that tends to cost money. 
+
 ## Single-File Executable (AKA "Normal Mode")
 Through the mystical powers of science, we are able to compile the Python program and all its requisite code libraries into a single executable file for Windows. You can find the latest version at [/bin/swearjar.exe](https://github.com/rudyharrelson/swearjar/raw/master/bin/swearjar.exe). Just run 'swearjar.exe' and you're done!
 ![](https://i.imgur.com/jzR0lHd.png)
