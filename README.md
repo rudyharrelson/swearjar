@@ -7,6 +7,7 @@ Through the mystical powers of science, we are able to compile the Python progra
 
 ### Uninstalling
 Tired of measuring the rapid decay of your already lacking vocabulary? You can uninstall SwearJar by simply deleting the 'swearjar.exe' file. 
+
 ![](https://i.imgur.com/5lQ5VQc.png)
 
 ## Advanced Mode (AKA "Unnecessarily Difficult Mode")
