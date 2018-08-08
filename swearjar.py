@@ -49,7 +49,7 @@ print(t.draw())
 
 
 #Ask user to select a microphone
-mic_choice = int(input("Which microphone would you like to count swears from? (Use the numbers 0-" + str(num_devices-1) + ")\n\n>>")) ##subtract 1 cause zero-indexed list of devices
+mic_choice = int(input("Which microphone would you like to count swears from? (Use the numbers 0-" + str(num_devices-1) + ")\n\n>>")) #subtract 1 cause zero-indexed list of devices
 selected_device = sr.Microphone.list_microphone_names()[mic_choice]
 
 
@@ -109,6 +109,6 @@ while True:
         print("You've selected an output device instead of an input device; try a different device.")
 
         #Ask user to select a microphone
-        mic_choice = int(input("Which microphone would you like to count swears from? (Use the numbers 0-" + str(num_devices-1) + ")\n\n>>")) ##subtract 1 cause zero-indexed list of devices
+        mic_choice = int(input("Which microphone would you like to count swears from? (Use the numbers 0-" + str(num_devices-1) + ")\n\n>>")) #subtract 1 cause zero-indexed list of devices
         selected_device = sr.Microphone.list_microphone_names()[mic_choice]
         print("You've selected: " + selected_device + "\n\n") #print our chosen mic's name
