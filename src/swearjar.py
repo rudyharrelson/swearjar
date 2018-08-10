@@ -1,7 +1,7 @@
 '''
 ###################
 # swearjar        #
-#        v1.9-5   #
+#        v1.9-6   #
 #                 #
 #       by rudy   #
 ###################
@@ -19,7 +19,7 @@ from texttable import Texttable
 #This method is called to draw the pretty table that displays the program
 def update_status(status_text):
     os.system('cls')
-    the_rows = [["Swear-Jar Counter","v1.9-5"],["Selected Device",selected_device],["Total Words", total_words],["Swears Per Word", swears_per_word],["Swear Count", swear_count],["Most Recent Text", most_recent_record],[" "," "],[" "," "],["Stats", status_text],["Press CTRL+C to Exit",""]]
+    the_rows = [["Swear-Jar Counter","v1.9-6"],["Selected Device",selected_device],["Total Words", total_words],["Swears Per Word", swears_per_word],["Swear Count", swear_count],["Most Recent Text", most_recent_record],[" "," "],[" "," "],["Stats", status_text],["Press CTRL+C to Exit",""]]
     t = Texttable()
     t.add_rows(the_rows)
     print(t.draw())
@@ -85,6 +85,9 @@ while True:
                     if a_word in swears or "*" in a_word:
                         #Update the values to be displayed
                         swear_count+=1
+                        outputFile = open("swearcount.txt","w+")
+                        outputFile.write(str(swear_count))
+                        outputFile.close()
                         update_status("Swear Detected!!  ")
             except sr.UnknownValueError:
                 #API could not discern what was said
