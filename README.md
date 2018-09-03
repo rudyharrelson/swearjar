@@ -5,14 +5,14 @@ This program listens to a microphone and counts utterances of swears. Currently,
 + <span style="font-size:small">**Note:** The Google API may impose limitations on the number of calls the program can make a day, so it may stop working at times due to API limitations being enforced. </span>
 
 ## How To Use
-Through the mystical powers of science, we are able to compile the Python program and all its requisite code libraries into a single executable file for Windows. You can find the latest version at [/bin/SwearJar.exe](https://github.com/rudyharrelson/SwearJar/raw/master/bin/SwearJar.exe). When you run "SwearJar.exe", you'll be prompted to select your microphone. After that, the program will begin listening for swears. 
+Through the mystical powers of science, we are able to compile the Python program and all its requisite code libraries into a single executable file for Windows. You can find the latest version at [/bin/swearjar.exe](https://github.com/rudyharrelson/swearjar/raw/master/bin/swearjar.exe). When you run "swearjar.exe", you'll be prompted to select your microphone. After that, the program will begin listening for swears. 
 ![](https://i.imgur.com/jzR0lHd.png)
 
 ### For Streamers
 Need a text file so your streaming software can display the swear count on your overlay? No problem. The current swear count is exported to "swearcount.txt". 
 
 ## Uninstalling
-Tired of measuring the rapid decay of your already lacking vocabulary? You can uninstall SwearJar by simply deleting the 'SwearJar.exe' file. 
+Tired of measuring the rapid decay of your already lacking vocabulary? You can uninstall SwearJar by simply deleting the 'swearjar.exe' file. 
 
 ![](https://i.imgur.com/5lQ5VQc.png)
 
